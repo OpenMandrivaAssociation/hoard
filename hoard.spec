@@ -13,7 +13,6 @@ License:	GPL
 URL:		http://www.hoard.org/
 Source:		http://www.cs.umass.edu/%7Eemery/hoard/hoard-%{version}/%{name}-%{nodotsversion}.tar.gz
 Summary:	A fast, scalable, and memory-efficient memory allocator
-BuildRoot:	%{_tmppath}/%{name}-root
 
 %description
 The Hoard memory allocator is a fast, scalable, and memory-efficient memory
