@@ -7,7 +7,7 @@
 
 Name:		%name
 Version:	3.6
-Release:	%mkrel 1
+Release:	%mkrel 3
 Group:		System/Libraries
 License:	GPL
 URL:		http://www.hoard.org/
