@@ -1,5 +1,5 @@
 %define name hoard
-%define version 3.5.1
+%define version 3.7.1
 %define underversion %(version=%version;echo ${version//./_})
 %define nodotsversion %(version=%version;echo ${version//./})
 
@@ -7,7 +7,7 @@
 
 Name:		%name
 Version:	3.6
-Release:	%mkrel 3
+Release:	%mkrel 1
 Group:		System/Libraries
 License:	GPL
 URL:		http://www.hoard.org/
