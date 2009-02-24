@@ -6,7 +6,7 @@
 %define libname %mklibname %name
 
 Name:		%name
-Version:	3.6
+Version:	%{version}
 Release:	%mkrel 1
 Group:		System/Libraries
 License:	GPL
