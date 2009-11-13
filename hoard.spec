@@ -1,5 +1,5 @@
 %define name hoard
-%define version 3.7.1
+%define version 3.8
 %define underversion %(version=%version;echo ${version//./_})
 %define nodotsversion %(version=%version;echo ${version//./})
 
@@ -7,13 +7,14 @@
 
 Name:		%name
 Version:	%{version}
-Release:	%mkrel 3
+Release:	%mkrel 1
 Group:		System/Libraries
 License:	GPL
 URL:		http://www.hoard.org/
 Source:		http://www.cs.umass.edu/%7Eemery/hoard/hoard-%{version}/%{name}-%{nodotsversion}.tar.gz
 Summary:	A fast, scalable, and memory-efficient memory allocator
 BuildRoot:	%{_tmppath}/%{name}-root
+Requires:	%libname
 Suggests:       hoard-profile
 
 %description
@@ -47,6 +48,7 @@ LD_PRELOAD="%{_libdir}/libhoard.so:%{_libdir}/libdl.so"
 Group:          System/Libraries
 License:        GPL
 Summary:        A fast, scalable, and memory-efficient memory allocator
+Requires:	%libname
 
 %description -n hoard-profile
 The Hoard memory allocator is a fast, scalable, and memory-efficient memory
