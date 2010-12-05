@@ -7,7 +7,7 @@
 
 Name:		%name
 Version:	%{version}
-Release:	%mkrel 1
+Release:	%mkrel 2
 Group:		System/Libraries
 License:	GPL
 URL:		http://www.hoard.org/
