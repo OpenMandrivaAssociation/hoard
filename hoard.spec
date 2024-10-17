@@ -10,7 +10,7 @@ Version:	%{version}
 Release:	%mkrel 2
 Group:		System/Libraries
 License:	GPL
-URL:		http://www.hoard.org/
+URL:		https://www.hoard.org/
 Source:		http://www.cs.umass.edu/%7Eemery/hoard/hoard-%{version}/%{name}-%{nodotsversion}.tar.gz
 Summary:	A fast, scalable, and memory-efficient memory allocator
 BuildRoot:	%{_tmppath}/%{name}-root
